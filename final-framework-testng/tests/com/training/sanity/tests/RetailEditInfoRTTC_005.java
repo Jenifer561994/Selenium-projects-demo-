@@ -33,7 +33,7 @@ public class RetailEditInfoRTTC_005 {
 	  public void setUp() {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
 		baseUrl = properties.getProperty("baseURL");
-		screenShot = new ScreenShot(driver);
+		//screenShot = new ScreenShot(driver);
 		driver.get(baseUrl);
 		 }
 	
@@ -51,7 +51,7 @@ public class RetailEditInfoRTTC_005 {
 	  login.editemail("jenifer@gmail.com");
 	  login.editTelephone("1234567890");
 	  login.clickContinuebutton();
-	  screenShot.captureScreenShot("Infoeditedsuccessfully");
+	  //screenShot.captureScreenShot("Infoeditedsuccessfully");
 	  Thread.sleep(3000);
 	  driver.close(); 	  
 }

@@ -20,7 +20,7 @@ public class RetailChangePasswordRTTC_006 {
 	private WebDriver driver;
 	private String baseUrl;
 	private static Properties properties;
-	private ScreenShot screenShot;
+	//private ScreenShot screenShot;
 	
 	@BeforeClass
 	public static void setUpBeforeClass() throws IOException {
@@ -34,7 +34,7 @@ public class RetailChangePasswordRTTC_006 {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
 		baseUrl = properties.getProperty("baseURL");
 		driver.get(baseUrl);
-		screenShot = new ScreenShot(driver);
+		//screenShot = new ScreenShot(driver);
 	  }
 	
   @Test
@@ -49,7 +49,7 @@ public class RetailChangePasswordRTTC_006 {
 	  login.updatePassword("retaildemo");
 	  login.confirmnewPassword("retaildemo");
 	  login.clickContinue();
-	  screenShot.captureScreenShot("passwordchangedsuccessfully");
+	  //screenShot.captureScreenShot("passwordchangedsuccessfully");
 	  Thread.sleep(3000);
 	  driver.close();	
 }

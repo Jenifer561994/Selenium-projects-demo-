@@ -45,11 +45,11 @@ public class RetailMyOrderslinkRTTC_004 {
 	  login.sendUserName("jenifer@gmail.com");
 	  login.sendPassword("retaildemo");
 	  login.clickLoginBtn(); 
-	  screenShot.captureScreenShot("loggedinsuccessfully");
+	  //screenShot.captureScreenShot("loggedinsuccessfully");
 	  login.MouseHoverovertoIcon();
 	  login.ClickMyorders();
 	  login.clickViewButton();
-	  screenShot.captureScreenShot("Vieworderdetails");
+	  //screenShot.captureScreenShot("Vieworderdetails");
 	  Thread.sleep(3000);
 	  driver.close();	  
 		}
