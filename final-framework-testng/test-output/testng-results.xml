@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29924" started-at="2019-10-24T11:20:50 IST" finished-at="2019-10-24T11:21:20 IST">
+  <suite name="Default suite" duration-ms="31242" started-at="2019-10-24T15:37:24 IST" finished-at="2019-10-24T15:37:55 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29924" started-at="2019-10-24T11:20:50 IST" finished-at="2019-10-24T11:21:20 IST">
-      <class name="com.training.sanity.tests.RetailMyOrderslinkRTTC_004">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RetailMyOrderslinkRTTC_004@6321e813]" name="setUpBeforeClass" is-config="true" duration-ms="29" started-at="2019-10-24T11:20:50 IST" finished-at="2019-10-24T11:20:50 IST">
+    <test name="Default test" duration-ms="31242" started-at="2019-10-24T15:37:24 IST" finished-at="2019-10-24T15:37:55 IST">
+      <class name="com.training.sanity.tests.RetailEditInfoRTTC_005">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RetailEditInfoRTTC_005@6321e813]" name="setUpBeforeClass" is-config="true" duration-ms="34" started-at="2019-10-24T15:37:24 IST" finished-at="2019-10-24T15:37:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RetailMyOrderslinkRTTC_004@6321e813]" name="setUp" is-config="true" duration-ms="15728" started-at="2019-10-24T11:20:50 IST" finished-at="2019-10-24T11:21:06 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RetailEditInfoRTTC_005@6321e813]" name="setUp" is-config="true" duration-ms="15800" started-at="2019-10-24T15:37:24 IST" finished-at="2019-10-24T15:37:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.RetailMyOrderslinkRTTC_004@6321e813]" name="validLoginTest" duration-ms="14091" started-at="2019-10-24T11:21:06 IST" finished-at="2019-10-24T11:21:20 IST">
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.RetailEditInfoRTTC_005@6321e813]" name="validLoginTest" duration-ms="15310" started-at="2019-10-24T15:37:40 IST" finished-at="2019-10-24T15:37:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-      </class> <!-- com.training.sanity.tests.RetailMyOrderslinkRTTC_004 -->
+      </class> <!-- com.training.sanity.tests.RetailEditInfoRTTC_005 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
